@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+svg{
+    width: 100%;
+}
+header div{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #000b76;
+    align-content: center;
+}
+header h3{
+     color: rgba(241, 237, 237, 0.829);
+     margin-top: 20px;
+}
+header div  a h4{
+    color: rgba(241, 237, 237, 0.829);
+}
+header button{
+    background-color: #000b76;
+    border: solid 1px #1826a3ce;
+    padding: 10px;
+    margin-left: 30px;
+}
+header button:hover{
+    box-shadow: #4e5aca 0px 0px 8px 2px ;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bnt{
+    border: solid #000b76 2px;
+    width: 40%;
+    padding: 10px;
+    margin: 10px 20px;
+    text-align: center;
+ }
+ div.bnt button{
+      width: 90%;
+      padding: 10px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      cursor: pointer;
+ }
+ /*div.bnt #botao*---------------/
+
+    /*PRIMEIRO BOTÃO -------------*/
+ div.bnt #bnt1{
+    color: white;
+    background-color: #000b76;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 5px #01095f;
+ }
+    div.bnt #bnt1:hover {
+    background-color: #010a57;
+    box-shadow: 0px 5px #020638;
+ }
+        div.bnt #bnt1:active{
+     position: relative;
+     top: 5px;
+     box-shadow: none;
+ }
+    /*SEGUNDO BOTÃO*/
+div.bnt #bnt2{
+    background-color: white;
+    border: rgb(5, 105, 5) solid 2px; 
+   
+} 
+    div.bnt #bnt2:hover{
+        text-shadow: green 2px 3px 2px;
+        font-size: 21px;
+        transition-duration: 1s;
+    }
+        div.bnt #bnt2:active {
+            font-size: 24px ; important;   
+        }
+        
