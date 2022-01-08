@@ -83,6 +83,6 @@ div.bnt #bnt2{
         transition-duration: 1s;
     }
         div.bnt #bnt2:active {
-            font-size: 24px ; important;   
+            font-size: 24px  !important;   
         }
         
