@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão 3</title>
+    <style>
+        div.bnt #bnt3{
+        background-color: #4e5aca;
+        border-radius: 13px 3px;
+        border:none;
+        }
+        .bntNewStyles{
+            background-color: #80187a !important;; 
+            border-radius: 3px 13px !important;
+        }
+    </style>
+    <script>
+        function mudaStyles (bnt3){
+    bnt3.classList.toggle("bntNewStyles");
+    return
+};
+    </script>
+</head>
+<body>
+    <div class="bnt">
+        <h6>botão 3</h6>
+        <button    onclick="mudaStyles(this)" id="bnt3">Click-Off</button>
+    </div>
+</body>
+</html>

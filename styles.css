@@ -71,7 +71,7 @@ header button:hover{
      top: 5px;
      box-shadow: none;
  }
-    /*SEGUNDO BOTÃO*/
+    /*SEGUNDO BOTÃO----------------------*/
 div.bnt #bnt2{
     background-color: white;
     border: rgb(5, 105, 5) solid 2px; 
@@ -86,3 +86,13 @@ div.bnt #bnt2{
             font-size: 24px  !important;   
         }
         
+/*TERCEIRO BOTÃO-----------*/
+div.bnt #bnt3{
+    background-color: #4e5aca;
+    border-radius: 13px 3px;
+    border:none;
+}
+    .bntNewStyles{
+        background-color: #80187a !important;; 
+        border-radius: 3px 13px !important;
+    }
