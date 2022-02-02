@@ -96,3 +96,23 @@ div.bnt #bnt3{
         background-color: #80187a !important; 
         border-radius: 3px 13px !important;
     }
+/*QUARTO BOTÃO--------------------*/
+div.bnt #bnt4{
+    background-color: rgb(15, 146, 103);
+    border: none;
+    animation-name: linha;
+    animation-duration: .8s;
+   
+}
+@keyframes linha{
+    from{ 
+        transform: translateY(-10px);
+        opacity: 0;
+        
+       
+    }
+    to{
+        transform: translateY(10);
+        opacity: 1;
+    }
+}
