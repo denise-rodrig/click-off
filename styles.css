@@ -116,3 +116,38 @@ div.bnt #bnt4{
         opacity: 1;
     }
 }
+/*QUINTO BOTÃO-----------------------*/
+div.bnt #bnt5{
+    background-color: #80187a;
+    border-radius: 20px 120px 20px 120px;
+    border: none;
+
+}
+@keyframes borda {
+    from{
+        width: 60px;
+        background-color: #440541;
+    }
+    to{
+    }
+}
+#bnt5:hover{
+       animation-name: borda;
+       animation-duration: 4s;
+       animation-timing-function:ease-out;
+
+}
+/*SEXTO BOTÃO------------------------*/
+div.bnt #bnt6{
+    background-color: rgb(19, 121, 121);
+    border: none;
+    border-radius: 22px;
+    
+
+}
+#bnt6:hover{
+    margin-top: -3px;
+        box-shadow: rgb(23, 87, 87) 3px 13px 7px;  
+}
+
+        
