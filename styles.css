@@ -123,20 +123,22 @@ div.bnt #bnt5{
     border: none;
 
 }
-@keyframes borda {
-    from{
-        width: 60px;
-        background-color: #440541;
-    }
-    to{
-    }
-}
 #bnt5:hover{
        animation-name: borda;
        animation-duration: 4s;
        animation-timing-function:ease-out;
 
 }
+@keyframes borda {
+    from{
+        width: 60px;
+        background-color: #440541;
+        transition: ease-out;
+        transition-timing-function: 3s;
+    }
+
+}
+
 /*SEXTO BOTÃO------------------------*/
 div.bnt #bnt6{
     background-color: rgb(19, 121, 121);
@@ -147,7 +149,44 @@ div.bnt #bnt6{
 }
 #bnt6:hover{
     margin-top: -3px;
-        box-shadow: rgb(23, 87, 87) 3px 13px 7px;  
+    box-shadow: rgb(23, 87, 87) 3px 13px 7px;  
 }
 
+ /*SETIMO BOTÃO----------------------------------*/    
+ div.bnt #bnt7{
+     background-color: crimson;
+     color: white;
+     border: none;
+     border-radius: 3px;
+    }
+    
+ #bnt7:hover{
+    animation-name: surgir;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-duration: alternate;
+
+ }
+.bnt8Animation{
+    animation-name: surgir;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-duration: alternate;
+}
+@keyframes surgir {
+    50%{
+        transform:skew(4deg, -2deg);
         
+    }
+    100%{
+       transform: skew(-4deg, 0deg);
+    }
+    
+}
+/*8 BOTÃO-------------------------*/
+
+div.bnt #bnt8{
+    background-color: violet;
+    border: #ecbcea double;
+    border-radius: 12px 23px ;
+}

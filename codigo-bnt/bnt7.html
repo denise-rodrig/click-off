@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão 7</title>
+    <style>
+         div.bnt #bnt7{
+     background-color: crimson;
+     color: white;
+     border: none;
+     border-radius: 3px;
+    }
+    
+        #bnt7:hover{
+    animation-name: surgir;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-duration: alternate;
+
+ }
+ @keyframes surgir {
+    50%{
+        transform:skew(4deg, -2deg);
+        
+    }
+    100%{
+       transform: skew(-4deg, 0deg);
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <div class="bnt">
+        <h6>botão 7</h6>
+        <button id="bnt7">Click-Off</button>
+    </div>
+</body>
+</html>

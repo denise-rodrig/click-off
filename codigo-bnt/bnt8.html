@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão 8</title>
+    <style>
+        div.bnt #bnt8{
+    background-color: violet;
+    border: #ecbcea double;
+    border-radius: 12px 23px ;
+}
+.bnt8Animation{
+    animation-name: surgir;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-duration: alternate;
+}
+@keyframes surgir {
+    50%{
+        transform:skew(4deg, -2deg);
+        
+    }
+    100%{
+       transform: skew(-4deg, 0deg);
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <div class="bnt">
+        <h6>botão 8</h6>
+        <button id="bnt8">Click-Off</button>
+    </div>
+
+</body>
+
+    <script type="text/javascript">
+         let bnt8=document.getElementById("bnt8");
+        bnt8.addEventListener("click",mudaBorder)
+        function mudaBorder(){
+    bnt8.classList.add("bnt8Animation")
+    bnt8.innerHTML="clicado com sucesso";
+    bnt8.style.color = "pink"
+}
+    </script>
+
+
+
+</html>
